@@ -75,13 +75,211 @@ h6 {
   font-weight: inherit;
   font-size: inherit; }
 
+.pageTitle {
+  display: flex;
+  justify-content: center;
+  height: 1105px;
+  padding: 62px 0px 30px 0px;
+  background: #100a30; }
+  .pageTitle__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .pageTitle__tittle {
+    max-width: 564px;
+    font-size: 55px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: 0.56px;
+    color: #ffffff;
+    text-align: center; }
+  .pageTitle__text {
+    padding-top: 26px;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.18px;
+    color: rgba(255, 255, 255, 0.7); }
+  .pageTitle__allBtn {
+    padding-top: 48px;
+    display: flex;
+    justify-content: center; }
+  .pageTitle_btnFirst {
+    background: #624de3;
+    border-radius: 6px;
+    width: 210px;
+    height: 54px;
+    margin-right: 16px;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff; }
+  .pageTitle_btnSecond {
+    background: #100a30;
+    border-radius: 0px;
+    width: 168px;
+    height: 54px;
+    border: 1px solid #c3c1cb;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff; }
+  .pageTitle__img img {
+    width: 100%; }
+
+@media (max-width: 768px) {
+  .pageTitle__tittle {
+    font-size: 50px; } }
+@media (max-width: 1210px) {
+  .pageTitle {
+    height: 995px; } }
+@media (max-width: 980px) {
+  .pageTitle {
+    height: 805px; } }
+@media (max-width: 680px) {
+  .pageTitle {
+    height: 750px; } }
+@media (max-width: 510px) {
+  .pageTitle {
+    height: 680px; } }
+@media (max-width: 630px) {
+  .pageTitle {
+    padding: 115px 0px 30px 0px; }
+
+  .pageTitle__tittle {
+    font-size: 35px; }
+
+  .pageTitle__text {
+    padding: 0 15px; } }
+@media (max-width: 450px) {
+  .pageTitle__tittle {
+    font-size: 28px;
+    line-height: 46px; }
+
+  .pageTitle {
+    height: 630px; }
+
+  .pageTitle_btnFirst {
+    width: 160px; }
+
+  .pageTitle_btnSecond {
+    width: 140px; } }
+@media (max-width: 350px) {
+  .pageTitle__tittle {
+    font-size: 25px;
+    line-height: 35px; }
+
+  .pageTitle_btnFirst {
+    width: 120px; }
+
+  .pageTitle_btnSecond {
+    width: 100px; }
+
+  .pageTitle__text {
+    font-size: 13px;
+    padding-top: 15px; }
+
+  .pageTitle {
+    height: 575px; } }
+@media (max-width: 321px) {
+  .pageTitle {
+    height: 550px; } }
+.tarif__mainTitle {
+  display: flex;
+  justify-content: center; }
+.tarif__title {
+  font-weight: bold;
+  font-size: 47px;
+  line-height: 57px;
+  color: #100a30;
+  max-width: 566px;
+  margin-top: 212px;
+  display: flex;
+  text-align: center;
+  margin-bottom: 58px; }
+.tarif_description {
+  background: rgba(16, 10, 48, 0.03);
+  border-radius: 8px;
+  height: 148px;
+  width: 395px; }
+  .tarif_description ul {
+    padding-left: 56px; }
+    .tarif_description ul li {
+      padding-top: 16px;
+      position: relative;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 22px;
+      color: #100a30; }
+      .tarif_description ul li:first-child {
+        padding-top: 25px; }
+        .tarif_description ul li:first-child::before {
+          top: 24px; }
+      .tarif_description ul li::before {
+        content: "";
+        background: url(/img/yes1.svg) no-repeat;
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        left: -33px;
+        top: 16px; }
+.tarif__text {
+  background: url("/img/tarif1.png");
+  width: 395px;
+  height: 250px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 39px;
+  padding-left: 30px;
+  position: relative; }
+.tarif__text2 {
+  background: url("/img/tarif2.png"); }
+.tarif__text3 {
+  background: url("/img/tarif3.png"); }
+.tarif__main h2 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 36px; }
+.tarif__main p {
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff; }
+.tarif__price {
+  font-size: 46px;
+  line-height: 52px;
+  color: #ffffff;
+  position: absolute;
+  right: 85px;
+  bottom: 28px; }
+  .tarif__price span {
+    font-size: 15px;
+    line-height: 32px;
+    text-align: right;
+    color: #ffffff;
+    position: absolute;
+    top: 24px;
+    right: -48px; }
+.tarif__card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
 header {
   padding: 0 15px; }
+
+body._lock {
+  overflow: hidden; }
 
 .header {
   display: flex;
   justify-content: space-between;
-  padding-top: 32px; }
+  padding-top: 32px;
+  padding-bottom: 33px;
+  position: relative; }
+  .header_logo {
+    z-index: 3; }
   .header_nav {
     display: flex; }
   .header_item {
@@ -129,7 +327,7 @@ header {
     height: 10%;
     width: 100%;
     transition: all 0.3s ease 0s;
-    background-color: red; }
+    background-color: #624de3; }
 
   .menu_icon::before,
   .menu_icon::after {
@@ -155,5 +353,51 @@ header {
   .menu_icon._active::after {
     bottom: 50%;
     transform: rotate(45deg) translate(0px, 50%); } }
+@media (max-width: 630px) {
+  header {
+    position: fixed; }
+
+  .header {
+    width: 100vw; }
+
+  .header_menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: left 0.3s ease 0s; }
+
+  .header_nav {
+    flex-direction: column;
+    padding: 100px 30px 30px 30px;
+    align-items: center;
+    justify-content: center; }
+
+  .header_item {
+    margin-left: 0;
+    padding-top: 60px; }
+
+  .header_item:last-child {
+    margin-left: 0; }
+
+  .header_menu._active {
+    left: 0; }
+
+  .header_menu::before {
+    content: "";
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 70px;
+    background-color: #ffffff;
+    z-index: 2; }
+
+  .header_link {
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 40px; } }
 
 /*# sourceMappingURL=style.css.map */
