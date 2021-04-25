@@ -39,7 +39,7 @@
   }
 
   &__text {
-    background: url("/img/tarif1.png") no-repeat;
+    background: url("../img/tarif1.png") no-repeat;
     width: 395px;
     height: 250px;
     display: flex;
@@ -49,11 +49,11 @@
   }
 
   &__text2 {
-    background: url("/img/tarif2.png") no-repeat;
+    background: url("../img/tarif2.png") no-repeat;
   }
 
   &__text3 {
-    background: url("/img/tarif3.png") no-repeat;
+    background: url("../img/tarif3.png") no-repeat;
   }
 
   &__main {      
@@ -108,13 +108,13 @@
 }
 
 .yes3 {
-    background: url(/img/yes2.svg) no-repeat;
+    background: url("../img/yes2.svg") no-repeat;
 }
 .yes2 {
-    background: url(/img/yes3.svg) no-repeat;
+    background: url("../img/yes3.svg") no-repeat;
 }
 .yes1 {
-    background: url(/img/yes1.svg) no-repeat;
+    background: url("../img/yes1.svg") no-repeat;
 }
 
 
