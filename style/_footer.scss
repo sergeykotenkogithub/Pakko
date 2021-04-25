@@ -95,9 +95,11 @@
     padding-left: 40px;
     justify-content: center;
   }
-  .footer__div {
+  .footer__div {  
+    padding-left: 40px;  
+  }
+  ._footer__paddingRight {
     padding-top: 30px;
-    padding-left: 40px;
   }
 }
 
@@ -111,6 +113,9 @@
   ._footer__div2,
   .footer__logo {
     padding-left: 50px;
+  }
+  ._footer__div2 {
+    padding-top: 30px;
   }
 }
 
@@ -133,6 +138,7 @@
 
 @media (max-width: 500px) {
   .footer__div {
+    padding-top: 30px;
     padding-left: 0px;
     display: block;
   }

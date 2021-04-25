@@ -459,8 +459,10 @@ h6 {
     justify-content: center; }
 
   .footer__div {
-    padding-top: 30px;
-    padding-left: 40px; } }
+    padding-left: 40px; }
+
+  ._footer__paddingRight {
+    padding-top: 30px; } }
 @media (max-width: 750px) {
   .footer {
     justify-content: flex-start; }
@@ -470,7 +472,10 @@ h6 {
 
   ._footer__div2,
   .footer__logo {
-    padding-left: 50px; } }
+    padding-left: 50px; }
+
+  ._footer__div2 {
+    padding-top: 30px; } }
 @media (max-width: 601px) {
   ._footer__div2,
   .footer__logo {
@@ -484,6 +489,7 @@ h6 {
     padding-right: 0px; } }
 @media (max-width: 500px) {
   .footer__div {
+    padding-top: 30px;
     padding-left: 0px;
     display: block; }
 
