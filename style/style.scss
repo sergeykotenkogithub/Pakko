@@ -1,6 +1,7 @@
 @import "null";
 @import "pageTitle";
 @import "tarif";
+@import "comment";
 
 header {
   padding: 0 15px;
@@ -19,7 +20,8 @@ body._lock {
   position: relative;
 
   &_logo {
-    z-index: 3;
+    z-index: 999;
+    position: inherit;
   }
 
   &_menu {
