@@ -417,8 +417,7 @@ h6 {
   .footer__text {
     font-size: 16px;
     line-height: 30px;
-    letter-spacing: 0.18px;
-    color: #4c4764; }
+    letter-spacing: 0.18px; }
   .footer__text1 {
     padding-top: 24px; }
   .footer__iconsWrapper {
@@ -428,8 +427,11 @@ h6 {
   .footer__div ul li {
     font-size: 15px;
     line-height: 24px;
-    color: #4c4764;
     padding-bottom: 6px; }
+    .footer__div ul li a {
+      color: #4c4764; }
+      .footer__div ul li a:hover {
+        color: #624de3; }
     .footer__div ul li:last-child {
       padding-bottom: 0; }
   .footer__mainText {
@@ -438,6 +440,10 @@ h6 {
     line-height: 24px;
     color: #100a30;
     padding-bottom: 9px; }
+  .footer__textWrapper a {
+    color: #4c4764; }
+    .footer__textWrapper a:hover {
+      color: #624de3; }
 
 @media (max-width: 1270px) {
   .footer {
@@ -462,13 +468,16 @@ h6 {
   .footer__div {
     padding-right: 30px; }
 
-  ._footer__div2, .footer__logo {
+  ._footer__div2,
+  .footer__logo {
     padding-left: 50px; } }
 @media (max-width: 601px) {
-  ._footer__div2, .footer__logo {
+  ._footer__div2,
+  .footer__logo {
     padding-left: 0px; } }
 @media (max-width: 540px) {
-  ._footer__div2, .footer__logo {
+  ._footer__div2,
+  .footer__logo {
     padding-left: 0px; }
 
   .footer__div {
@@ -478,7 +487,8 @@ h6 {
     padding-left: 0px;
     display: block; }
 
-  .footer__logo, .footer__div {
+  .footer__logo,
+  .footer__div {
     flex: 1 1 100vw;
     text-align: center; } }
 header {
@@ -504,10 +514,14 @@ body._lock {
       margin-left: 0px; }
     .header_item:last-child {
       margin-left: 27px; }
+      .header_item:last-child:hover {
+        margin-left: 25px; }
   .header_link {
     font-size: 16px;
     line-height: 24px;
     color: #100a30; }
+    .header_link:hover {
+      color: #624de3; }
     .header_link--btn {
       background: #624de3;
       border-radius: 6px;
@@ -517,7 +531,12 @@ body._lock {
       font-size: 14px;
       line-height: 24px;
       color: #ffffff;
-      border-radius: 6px; }
+      border-radius: 6px;
+      transition: color 0.6s ease 0s; }
+      .header_link--btn:hover {
+        border: 1px solid black;
+        background: #ffffff;
+        border-radius: 6px; }
 
 .container {
   max-width: 1232px;
