@@ -298,6 +298,75 @@ h6 {
 
   .tarif__choose {
     padding: 15px 0; } }
+.comments {
+  padding-top: 146px;
+  display: flex; }
+  .comments__div {
+    width: 596px;
+    background: #e8e5fb;
+    border-radius: 8px; }
+  .comments ._comments__div1 {
+    margin-top: 81px; }
+  .comments ._comments__divStandart {
+    margin-top: 40px; }
+  .comments ._comment_color2 {
+    background: #E8FAF3; }
+  .comments ._comment_color3 {
+    background: #FDEBEE; }
+  .comments ._comment_color4 {
+    background: #E6F3FF; }
+  .comments ._comment_color5 {
+    background: #FFF5E1; }
+  .comments ._coment_text2 {
+    font-size: 18px; }
+  .comments ._coment_text3 {
+    font-size: 16px;
+    padding-top: 32px; }
+  .comments ._afterText2 {
+    padding-top: 24px; }
+  .comments__wrapper {
+    padding: 40px; }
+  .comments__column1 {
+    padding-right: 40px; }
+  .comments__column2 {
+    padding-top: 10px; }
+  .comments__title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #100a30;
+    max-width: 375px;
+    padding-top: 85px; }
+  .comments_login {
+    font-size: 15px;
+    line-height: 24px;
+    color: #4c4764; }
+  .comments__who {
+    display: flex;
+    justify-content: space-between; }
+  .comments__write {
+    display: flex; }
+  .comments__img {
+    padding-right: 16px; }
+  .comments__name {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #100a30; }
+  .comments__text {
+    padding-top: 36px;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.18px;
+    color: #4c4764;
+    max-width: 503px; }
+  .comments__afterText {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #100a30; }
+
 header {
   padding: 0 15px; }
 
