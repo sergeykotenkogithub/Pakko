@@ -403,6 +403,41 @@ h6 {
 
   .comments__text, .comments ._coment_text2 {
     font-size: 14px; } }
+.footer {
+  padding-top: 55px;
+  padding-bottom: 57px;
+  display: flex;
+  justify-content: space-between; }
+  .footer__wrapper {
+    background: #f8f8f9;
+    margin-top: 121px; }
+  .footer ._footer__paddingRight {
+    padding-right: 97px; }
+  .footer__text {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.18px;
+    color: #4c4764; }
+  .footer__text1 {
+    padding-top: 24px; }
+  .footer__iconsWrapper {
+    padding-top: 28px; }
+  .footer__icon {
+    padding-right: 19px; }
+  .footer__div ul li {
+    font-size: 15px;
+    line-height: 24px;
+    color: #4c4764;
+    padding-bottom: 6px; }
+    .footer__div ul li:last-child {
+      padding-bottom: 0; }
+  .footer__mainText {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #100a30;
+    padding-bottom: 9px; }
+
 header {
   padding: 0 15px; }
 
