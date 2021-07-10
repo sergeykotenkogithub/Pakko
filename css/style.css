@@ -745,7 +745,7 @@ body._lock {
 .header_logo {
   z-index: 999;
   position: inherit;
-  padding-right: 65px;
+  padding-right: 63px;
 }
 
 .header_nav {
